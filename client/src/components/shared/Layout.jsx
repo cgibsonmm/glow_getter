@@ -51,9 +51,9 @@ class Layout extends Component {
                         
                             {this.state.open && (
                             <ul className="Hamburger-Dropdown-In">
-                                <a href="/"><li>Home</li></a>
-                                <a href="/shop"><li>Shop</li></a>
-                                <a href="/cart"><li>My Cart</li></a>
+                                <Link to="/"><li>Home</li></Link>
+                                <Link to="/shop"><li>Shop</li></Link>
+                                <Link to="/cart"><li>My Cart</li></Link>
                             </ul>
                              )}
                         </div>
@@ -61,10 +61,10 @@ class Layout extends Component {
                         <div className="Logged-Out">
                             {this.state.open && (
                             <ul className="Hamburger-Dropdown-Out">
-                                <a href="/"><li>Home</li></a>
-                                <a href="/shop"><li>Shop</li></a>
-                                <a href="/login"><li>Login</li></a>
-                                <a href="/register"><li>Register</li></a>
+                                <Link to="/"><li>Home</li></Link>
+                                <Link to="/shop"><li>Shop</li></Link>
+                                <Link to="/login"><li>Login</li></Link>
+                                <Link to="/register"><li>Register</li></Link>
                             </ul>
                              )}
                         </div>
