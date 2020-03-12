@@ -36,10 +36,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "engines": {
-    "node": "8.9.4",
-    "npm": "5.6.0",
-    "yarn": "1.22.4"
   }
 }
