@@ -2,7 +2,7 @@
     "name": "glow-getter",
     "license": "MIT",
     "engines": {
-      "node": "8.9.4",
+      "node": "10.15.3",
       "yarn": "1.22.4"
     },
     "scripts": {
