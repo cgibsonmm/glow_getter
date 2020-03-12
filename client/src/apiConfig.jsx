@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = '/'
+const baseUrl = 'ghhgjh'
 let api
 
 if (localStorage.getItem('authToken')){
