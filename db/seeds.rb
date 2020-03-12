@@ -10,7 +10,7 @@
 user = User.new(
     username: 'swr127',
     email: 'samanthamktgemails@gmail.com',
-    password_digest: 'password'
+    password: 'password'
 )
 
 # Products
@@ -66,4 +66,4 @@ lotion = Product.create(
 user.products << day_cream
 user.products << serum
 
-user.save
+user.save!

@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = 'https://glow-getter-app.herokuapp.com/api'
+const baseUrl = 'http://localhost:3000/api'
 let api
 
 if (localStorage.getItem('authToken')){
