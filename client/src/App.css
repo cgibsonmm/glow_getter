@@ -1,0 +1,485 @@
+/* **************
+// GLOBAL
+/* **************/
+
+.App {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  transition: all ease-in;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* **************
+// HEADER
+/* **************/
+
+.Header {
+  width: 100%;
+}
+
+.Header nav {
+  display: block;
+  background-color: #dfe6ec;
+  height: 35px;
+  width: 100%;
+}
+
+.Title {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.Title-Text {
+  color: black;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.Title-Text:hover {
+  color: darkgray;
+}
+
+.Logo {
+  color: black;
+  font-size: 20px;
+  float: left;
+  height: 28px;
+  padding: 5px 0px 5px 10px;
+  width: 28px;
+}
+
+.Logo:hover {
+  color: darkgray;
+  font-weight: 600;
+}
+
+.Hamburger-Button {
+  background-color: #dfe6ec;
+  border: none;
+  font-size: 22px;
+  float: right;
+  cursor: pointer;
+  outline: 0;
+}
+
+.Hamburger-Dropdown-In {
+  font-size: 16px;
+  margin-top: 20px;
+  height: 200px;
+  position: absolute;
+  right: 20px;
+}
+
+.Hamburger-Dropdown-In li {
+  padding: 5px;
+}
+
+.Hamburger-Dropdown-In li:hover {
+  color: #54b02b;
+  font-weight: 600; 
+}
+
+.Hamburger-Dropdown-In a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+.Hamburger-Dropdown-Out {
+  font-size: 16px;
+  margin-top: 40px;
+  height: 200px;
+  position: absolute;
+  right: 20px;
+}
+
+.Hamburger-Dropdown-Out li {
+  padding: 5px;
+}
+
+.Hamburger-Dropdown-Out li:hover {
+  color: #54b02b;
+  font-weight: 600; 
+}
+
+.Hamburger-Dropdown-Out a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+.Logged-In {
+  font-size: 14px;
+  margin-top: 5px;
+  float: right;
+}
+
+.Logged-In button {
+  border: 2;
+  border-color: darkgray;
+  background-color: white;
+  cursor: pointer;
+  color: darkgray;
+  font-size: 12px;
+  font-weight: 600;
+  height: 25px;
+  width: 55px;
+  margin-left: 5px;
+}
+
+.Logged-In button:hover {
+  color: #54b02b;
+  font-weight: bolder; 
+}
+
+/* **************
+// FOOTER
+/* **************/
+
+.Footer {
+  color: black;
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 2px;
+  width: 100%;
+}
+
+/* **************
+// HOME
+/* **************/
+
+.Home {
+  width: 100%;
+  margin: auto;
+  padding: 0px 0px 10px 0px;
+}
+
+.Slide div {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  height: 800px;
+}
+
+/* **************
+// LOGIN
+/* **************/
+
+.Login {
+  display: flex;
+  background-image: url("https://i.imgur.com/7ozmBtT.jpg");
+  background-size: cover;
+  height: 800px;
+}
+
+.Login h1 {
+  color: black;
+  font-size: 38px;
+  font-weight: 400;
+  padding-top: 110px;
+  padding-bottom: 10px;
+}
+
+.Login h3 {
+  color: black;
+  font-size: 22px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.Login-Form {
+  background-color: white;
+  border-radius: 2%;
+  color: black;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  height: 500px;
+  width: 550px;
+  transform: translate(-50%, -50%);
+}
+
+.Username, .Password {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 30px 0px 5px 0px;
+}
+
+.Login input {
+  border: 1;
+  border-color: darkgray;
+  height: 20px;
+  width: 220px;
+}
+
+.Login-Button {
+  border: 1;
+  border-radius: 10%;
+  border-color: white;
+  background-color: #54b02b;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  width: 80px;
+  margin-top: 40px;
+}
+
+.Login-Button:hover {
+  font-weight: bold;
+}
+
+.Shop-Button {
+  border: 1;
+  border-radius: 8%;
+  border-color: white;
+  background-color: #54b02b;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  width: 120px;
+  margin-top: 40px;
+}
+
+.Shop-Button:hover {
+  font-weight: bold;
+}
+
+/* **************
+// REGISTER
+/* **************/
+
+.Register {
+  display: flex;
+  background-image: url("https://i.imgur.com/7ozmBtT.jpg");
+  background-size: cover;
+  height: 800px;
+}
+
+.Register h1 {
+  color: black;
+  font-size: 38px;
+  font-weight: 400;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.Register h3 {
+  color: black;
+  font-size: 22px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.Register-Form {
+  background-color: white;
+  border-radius: 2%;
+  color: black;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  height: 500px;
+  width: 550px;
+  transform: translate(-50%, -50%);
+}
+
+.Email {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 30px 0px 5px 0px;
+}
+
+.Register input {
+  border: 1;
+  border-color: darkgray;
+  height: 20px;
+  width: 220px;
+}
+
+.Register p {
+  margin: 0 
+}
+
+.Offer {
+  font-size: 18px;
+}
+
+.Register-Button {
+  border: 1;
+  border-radius: 10%;
+  border-color: white;
+  background-color: #54b02b;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  width: 80px;
+  margin-top: 20px;
+}
+
+.Register-Button:hover {
+  font-weight: bold;
+}
+
+.Disclaimer {
+  font-size: 10px;
+  padding-top: 10px;
+}
+
+/* **************
+// SHOP 
+/* **************/
+
+.Shop-Products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.Add-Button {
+  border: 2;
+  border-color: white;
+  background-color: #54b02b;
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  height: 30px;
+  width: 100px;
+}
+
+.Add-Button:hover {
+  font-weight: bolder;
+}
+
+/* **************
+// CART
+/* **************/
+
+.Cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%
+}
+
+.Cart-Instructions {
+  margin: 0 auto;
+  padding: 0px 0px 0px 60px;
+  width: 50%;
+  text-align: left;
+}
+
+.Cart ul {
+  list-style: none;
+  padding-left: 2px;
+}
+
+.Cart li {
+  padding-top: 5px;
+}
+
+.Social-Media {
+  font-size: 12px;
+}
+
+.Cart-Box {
+  width: 50%;
+}
+
+.Cart-Products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.Cart-Empty {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.Remove-Button {
+  border: 2;
+  border-color: white;
+  background-color: #54b02b;
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  height: 30px;
+  width: 140px;
+}
+
+.Remove-Button:hover {
+  font-weight: bolder;
+}
+
+/* **************
+// PRODUCTS
+/* **************/
+
+.Product-Card {
+  margin-top: 40px;
+  margin-right: 48px;
+  margin-left: 46px;
+  text-align: left;
+}
+
+.Product-Image {
+  transition: 1s ease;
+  transform-style: preserve-3d;
+}
+
+.Product-Image:hover {
+  transform: rotateY(180deg);
+}
+
+.Product-Front, .Product-Back {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.Product-Front {
+  position: absolute;
+}
+
+.Product-Back {
+  transform: rotateY(180deg);
+}
+
+.Product-Name {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+.Product-Price {
+  color: #6d7174;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  padding: 5px 0px 5px 0px;
+}

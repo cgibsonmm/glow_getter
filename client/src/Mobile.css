@@ -1,0 +1,317 @@
+@media screen and (max-width: 640px) {
+
+/* **************
+// HEADER
+/* **************/
+  .Title {
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+
+  .Title-Text {
+    font-size: 28px;
+  }
+
+  .Hamburger-Dropdown-In {
+    font-size: 12px;
+    right: 5px;
+  }
+  
+  .Hamburger-Dropdown-In li {
+    padding: 2px;
+  }
+  
+  .Hamburger-Dropdown-In a {
+    color: #54b02b;
+    font-weight: 600;
+  }
+  
+  .Hamburger-Dropdown-Out {
+    font-size: 12px;
+    right: 5px;
+  }
+  
+  .Hamburger-Dropdown-Out li {
+    padding: 2px;
+  }
+  
+  .Hamburger-Dropdown-Out a {
+    color: #54b02b;
+    font-weight: 600;
+  }
+  
+  .Logged-In button {
+    color: #54b02b;
+    font-weight: 600;
+  }
+  
+  /* **************
+  // FOOTER
+  /* **************/
+  
+  .Footer {
+    font-size: 12px;
+    margin-top: 2px;
+    padding: 2px;
+  }
+  
+  /* **************
+  // HOME
+  /* **************/
+  
+  .Home {
+    width: 100%;
+    margin: auto;
+    padding: 0px 0px 10px 0px;
+  }
+  
+  .Slide div {
+    background-position: center;
+    height: 600px;
+  }
+  
+  /* **************
+  // LOGIN
+  /* **************/
+  
+  .Login {
+    background-position: center;
+    height: 600px;
+  }
+  
+  .Login h1 {
+    font-size: 24px;
+  }
+  
+  .Login h3 {
+    font-size: 18px;
+    padding-bottom: 2px;
+  }
+  
+  .Login-Form {
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 500px;
+  }
+  
+  .Username, .Password {
+    font-size: 16px;
+    padding: 20px 0px 5px 0px;
+  }
+  
+  .Login input {
+    height: 20px;
+    width: 180px;
+  }
+
+  /* **************
+  // REGISTER
+  /* **************/
+  
+  .Register {
+    background-position: center;
+    height: 600px;
+  }
+  
+  .Register h1 {
+    font-size: 24px;
+  }
+  
+  .Register h3 {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+  }
+  
+  .Register-Form {
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 500px;
+  }
+  
+  .Email {
+    font-size: 16px;
+    padding: 20px 0px 5px 0px;
+  }
+  
+  .Register input {
+    height: 20px;
+    width: 180px;
+  }
+  
+  .Register p {
+    font-size: 14px;
+    margin: 0 
+  }
+  
+  .Register-Button {
+    border: 1;
+    border-radius: 10%;
+    border-color: white;
+    background-color: #54b02b;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+  }
+  
+  .Register-Button:hover {
+    font-weight: bold;
+  }
+  
+  .Disclaimer {
+    font-size: 10px;
+    padding-top: 10px;
+  }
+  
+  /* **************
+  // SHOP 
+  /* **************/
+  
+  .Shop-Products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .Add-Button {
+    border: 2;
+    border-color: white;
+    background-color: #54b02b;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    height: 30px;
+    width: 100px;
+  }
+  
+  .Add-Button:hover {
+    font-weight: bolder;
+  }
+  
+  /* **************
+  // CART
+  /* **************/
+  
+  .Cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%
+  }
+  
+  .Cart-Instructions {
+    margin: 0 auto;
+    padding: 0px 0px 0px 60px;
+    width: 50%;
+    text-align: left;
+  }
+  
+  .Cart ul {
+    list-style: none;
+    padding-left: 2px;
+  }
+  
+  .Cart li {
+    padding-top: 5px;
+  }
+  
+  .Social-Media {
+    font-size: 12px;
+  }
+  
+  .Cart-Box {
+    width: 50%;
+  }
+  
+  .Cart-Products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .Cart-Empty {
+    text-align: center;
+    padding-top: 150px;
+  }
+  
+  .Remove-Button {
+    border: 2;
+    border-color: white;
+    background-color: #54b02b;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    height: 30px;
+    width: 140px;
+  }
+  
+  .Remove-Button:hover {
+    font-weight: bolder;
+  }
+  
+  /* **************
+  // PRODUCTS
+  /* **************/
+  
+  .Product-Card {
+    margin-top: 40px;
+    margin-right: 48px;
+    margin-left: 46px;
+    text-align: left;
+  }
+  
+  .Product-Image {
+    transition: 1s ease;
+    transform-style: preserve-3d;
+  }
+  
+  .Product-Image:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .Product-Front, .Product-Back {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .Product-Front {
+    position: absolute;
+  }
+  
+  .Product-Back {
+    transform: rotateY(180deg);
+  }
+  
+  .Product-Name {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 6px;
+    margin-bottom: 0;
+  }
+  
+  .Product-Price {
+    color: #6d7174;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+  }
+}
