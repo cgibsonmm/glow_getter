@@ -23,4 +23,7 @@ class ApplicationController < ActionController::API
           render json: { errors: e.message }, status: :unauthorized
         end
     end
+    def fallback_index_html
+      render :file => 'public/index.html'
+    end
 end
