@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
 class ApplicationController < ActionController::API
-  protect_from_forgery with: :exception
-
   def fallback_index_html
     render file: 'public/index.html'
   end
