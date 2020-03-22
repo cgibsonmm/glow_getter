@@ -1,5 +1,7 @@
 # Steps to deploy
 
+- create a new deploy branch off of master `git checkout -b new-deploy`
+
 - `touch ./glow_getter_app/Procfile.dev` add this code in this file
 
 ```
@@ -145,6 +147,15 @@ const baseUrl = "/";
 # Time to deploy
 
 - commit and push all changes
+- from the root of the git `/glow_getter` run `git subtree push --prefix glow_getter_app heroku new-deploy
+
+- if this builds successfully run `heroku run rails db:migrate` and `heroku run rails db:seed`
+
+- if any part of this fails let me know and I will work through the errors with you. I was able to get this to work on my heroku [here](https://lit-lake-43168.herokuapp.com/), and you can look through the files here to compare the two projects.
+
+---
+
+---
 
 # Glow Getter Overview
 
