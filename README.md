@@ -140,6 +140,12 @@ end
 const baseUrl = "/";
 ```
 
+---
+
+# Time to deploy
+
+- commit and push all changes
+
 # Glow Getter Overview
 
 ## Project Description
